@@ -4,22 +4,32 @@ export default defineEventHandler(() => {
   return [
     {
       id: 1,
-      title: 'Laravel',
+      title: 'Programming',
       description: {
-        en: 'I build modern and advanced websites and applications with Laravel, the PHP framework.',
-        tr: 'PHP frameworkü olan Laravel ile modern ve gelişmiş web siteleri ve uygulamaları yapıyorum.',
+        en: 'I use VueJS, a modern JavaScript framework, while making dynamic and static websites and applications.',
+        fr: 'I use VueJS, a modern JavaScript framework, while making dynamic and static websites and applications.',
       },
-      icon: 'logo-laravel',
+      icon: 'terminal-outline',
       image: null,
     },
     {
       id: 2,
-      title: 'Vue JS',
+      title: 'Photography',
       description: {
-        en: 'I use VueJS, a modern JavaScript framework, while making dynamic and static websites and applications.',
-        tr: 'Dinamik ve statik web site ve uygulamaları yaparken modern JavaScript framework olan VueJS kullanıyorum.',
+        en: 'I build modern and advanced websites and applications with Laravel, the PHP framework.',
+        fr: 'I build modern and advanced websites and applications with Laravel, the PHP framework.',
       },
-      icon: 'logo-vue',
+      icon: 'camera-outline',
+      image: null,
+    },
+    {
+      id: 3,
+      title: 'Design',
+      description: {
+        en: 'I build modern and advanced websites and applications with Laravel, the PHP framework.',
+        fr: 'I build modern and advanced websites and applications with Laravel, the PHP framework.',
+      },
+      icon: 'shirt-outline',
       image: null,
     },
   ]

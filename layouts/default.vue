@@ -1,5 +1,6 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
+import { fullName } from '../common/constants'
 const { locale } = useI18n({ useScope: 'global' })
 
 useHead({
@@ -7,7 +8,7 @@ useHead({
     lang: locale,
   },
   titleTemplate: (pageTitle) => {
-    return pageTitle ? `${pageTitle} - Azad Furkan ŞAKAR` : 'Azad Furkan ŞAKAR'
+    return pageTitle ? `${pageTitle} - ${fullName}` : fullName
   },
   link: [
     {

@@ -15,15 +15,15 @@ function changeLang() {
     locale.value = 'en'
   }
   else {
-    cookieLocale.setLocale('tr')
-    locale.value = 'tr'
+    cookieLocale.setLocale('fr')
+    locale.value = 'fr'
   }
 }
 </script>
 
 <template>
   <div class="cursor-pointer transition-all fade" @click="changeLang()">
-    <img :src="`/flags/${locale}.png`" class="h-6">
+    {{ locale.value }}
   </div>
 </template>
 
