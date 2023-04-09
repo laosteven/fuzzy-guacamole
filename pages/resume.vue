@@ -26,44 +26,15 @@ useHead({
       <ol class="timeline-list">
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">
-            University school of the arts
+            École de technologie supérieure
           </h4>
 
-          <span>2007 — 2008</span>
+          <span>2012 — 2017</span>
 
           <p class="timeline-text">
             Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
             quas molestias
             exceptur.
-          </p>
-        </li>
-
-        <li class="timeline-item">
-          <h4 class="h4 timeline-item-title">
-            New york academy of art
-          </h4>
-
-          <span>2006 — 2007</span>
-
-          <p class="timeline-text">
-            Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda
-            est
-            omnis..
-          </p>
-        </li>
-
-        <li class="timeline-item">
-          <h4 class="h4 timeline-item-title">
-            High school of art and design
-          </h4>
-
-          <span>2002 — 2004</span>
-
-          <p class="timeline-text">
-            Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed
-            consequuntur
-            magni dolores
-            eos.
           </p>
         </li>
       </ol>
@@ -83,25 +54,10 @@ useHead({
       <ol class="timeline-list">
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">
-            Creative director
+            Senior Frontend Developer
           </h4>
 
-          <span>2015 — Present</span>
-
-          <p class="timeline-text">
-            Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-            qvuas
-            molestias
-            exceptur.
-          </p>
-        </li>
-
-        <li class="timeline-item">
-          <h4 class="h4 timeline-item-title">
-            Art director
-          </h4>
-
-          <span>2013 — 2015</span>
+          <span>2022 - Present</span>
 
           <p class="timeline-text">
             Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
@@ -112,10 +68,24 @@ useHead({
 
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">
-            Web designer
+            Senior Frontend Developer
           </h4>
 
-          <span>2010 — 2013</span>
+          <span>2019 - 2022</span>
+
+          <p class="timeline-text">
+            Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+            quas molestias
+            exceptur.
+          </p>
+        </li>
+
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">
+            Software Development Engineer
+          </h4>
+
+          <span>2018 - 2019</span>
 
           <p class="timeline-text">
             Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
@@ -135,13 +105,13 @@ useHead({
         <li class="skills-item">
           <div class="title-wrapper">
             <h5 class="h5">
-              Web design
+              Web development
             </h5>
-            <data value="80">80%</data>
+            <data value="90">90%</data>
           </div>
 
           <div class="skill-progress-bg">
-            <div class="skill-progress-fill" style="width: 80%;" />
+            <div class="skill-progress-fill" style="width: 90%;" />
           </div>
         </li>
 
@@ -161,20 +131,20 @@ useHead({
         <li class="skills-item">
           <div class="title-wrapper">
             <h5 class="h5">
-              Branding
+              Debugging
             </h5>
-            <data value="90">90%</data>
+            <data value="80">80%</data>
           </div>
 
           <div class="skill-progress-bg">
-            <div class="skill-progress-fill" style="width: 90%;" />
+            <div class="skill-progress-fill" style="width: 80%;" />
           </div>
         </li>
 
         <li class="skills-item">
           <div class="title-wrapper">
             <h5 class="h5">
-              WordPress
+              DevOps
             </h5>
             <data value="50">50%</data>
           </div>

@@ -12,7 +12,7 @@ function toggleMenu() {
   <aside class="sidebar" :class="{ active: isOpen }">
     <div class="sidebar-info">
       <figure class="avatar-box">
-        <img src="/images/my-avatar.png" :alt="fullName" width="80">
+        <img src="https://avatars.githubusercontent.com/u/10532491?v=4" :alt="fullName" width="80">
       </figure>
 
       <div class="info-content">
@@ -36,33 +36,21 @@ function toggleMenu() {
       <div class="separator" />
 
       <ul class="contacts-list">
-        <li class="contact-item">
+        <!-- <li class="contact-item">
           <div class="icon-box">
-            <ion-icon name="logo-github" />
+            <ion-icon name="language-outline" />
           </div>
 
           <div class="contact-info">
             <p class="contact-title">
-              Github
+              Language
             </p>
 
-            <a :href="`https://github.com/${githubHandle}`" class="contact-link" target="_blank">{{ githubHandle }}</a>
+            <div class="contact-link">
+              English, French
+            </div>
           </div>
-        </li>
-
-        <li class="contact-item">
-          <div class="icon-box">
-            <ion-icon name="logo-linkedin" />
-          </div>
-
-          <div class="contact-info">
-            <p class="contact-title">
-              Linkedin
-            </p>
-
-            <a href="https://tr.linkedin.com/in/lao-a-steven" class="contact-link" target="_blank">{{ fullName }}</a>
-          </div>
-        </li>
+        </li> -->
 
         <li class="contact-item">
           <div class="icon-box">
@@ -76,6 +64,28 @@ function toggleMenu() {
 
             <address>Montreal, Canada</address>
           </div>
+        </li>
+      </ul>
+
+      <div class="separator" />
+
+      <ul class="social-list">
+        <li class="social-item">
+          <NuxtLink to="https://github.com/laosteven" class="social-link" target="_blank">
+            <ion-icon name="logo-github" />
+          </NuxtLink>
+        </li>
+
+        <li class="social-item">
+          <NuxtLink to="https://linkedin.com/in/lao-a-steven" class="social-link" target="_blank">
+            <ion-icon name="logo-linkedin" />
+          </NuxtLink>
+        </li>
+
+        <li class="social-item">
+          <NuxtLink to="https://www.instagram.com/lao.a.steven/" class="social-link" target="_blank">
+            <ion-icon name="logo-instagram" />
+          </NuxtLink>
         </li>
       </ul>
     </div>

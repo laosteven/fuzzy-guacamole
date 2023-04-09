@@ -23,11 +23,20 @@
         </NuxtLink>
       </li>
 
-      <li class="navbar-item">
+      <!-- <li class="navbar-item">
         <NuxtLink to="/contact" class="navbar-link">
           {{ $t('pageTitles.contact') }}
         </NuxtLink>
-      </li>
+      </li> -->
+
+      <!-- <li class="navbar-item">
+        <div class="icon-item">
+          <ion-icon name="camera-outline" class="icon-item text-[20px] mx-auto" />
+          <NuxtLink to="/snappybara" class="navbar-link">
+            {{ $t('pageTitles.snappybara') }}
+          </NuxtLink>
+        </div>
+      </li> -->
     </ul>
   </nav>
 </template>

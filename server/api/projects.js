@@ -4,99 +4,51 @@ export default defineEventHandler(() => {
   return [
     {
       id: 1,
-      title: 'Finance',
-      category: {
-        id: 1,
-        title: {
-          en: 'Web Development',
-          tr: 'Web Geliştirme',
-        },
-      },
-      content: {
-        en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-        tr: 'Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500\'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960\'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.',
-      },
-      image: '/images/project-1.jpg',
+      title: 'eTRI: Your friendly guide to sort waste',
+      content: '',
+      date: 'April 2018',
+      link: 'https://devpost.com/software/etri',
+      image: 'https://s.wsj.net/public/resources/images/ON-CB801_chip_M_20170405183838.jpg',
     },
     {
       id: 2,
-      title: 'Orizon',
-      category: {
-        id: 1,
-        title: {
-          en: 'Web Development',
-          tr: 'Web Geliştirme',
-        },
-      },
-      content: {
-        en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-        tr: 'Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500\'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960\'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.',
-      },
-      image: '/images/project-2.png',
+      title: 'Kata: Your Friendly Travel Agent',
+      content: '',
+      date: 'February 2018',
+      link: 'https://github.com/laosteven/kataRN',
+      image: 'https://s.wsj.net/public/resources/images/ON-CB801_chip_M_20170405183838.jpg',
     },
     {
       id: 3,
-      title: 'Brawlhalla',
-      category: {
-        id: 2,
-        title: {
-          en: 'Application',
-          tr: 'Uygulama',
-        },
-      },
-      content: {
-        en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-        tr: 'Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500\'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960\'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.',
-      },
-      image: '/images/project-3.jpg',
+      title: 'Donut: Donate your item\'s value to a charity of your choice',
+      content: '',
+      date: 'Jan 2018',
+      link: 'https://devpost.com/software/donutrn',
+      image: 'https://s.wsj.net/public/resources/images/ON-CB801_chip_M_20170405183838.jpg',
     },
     {
       id: 4,
-      title: 'DSM.',
-      category: {
-        id: 3,
-        title: {
-          en: 'Web Design',
-          tr: 'Web Tasarım',
-        },
-      },
-      content: {
-        en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-        tr: 'Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500\'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960\'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.',
-      },
-      image: '/images/project-4.png',
+      title: 'BeastBot',
+      content: 'Automated SMS responses for Dragonboat teams.',
+      date: 'June 2019',
+      link: 'https://github.com/laosteven/BeastBot',
+      image: 'https://s.wsj.net/public/resources/images/ON-CB801_chip_M_20170405183838.jpg',
     },
     {
       id: 5,
-      title: 'MetaSpark',
-      category: {
-        id: 3,
-        title: {
-          en: 'Web Design',
-          tr: 'Web Tasarım',
-        },
-      },
-      content: {
-        en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-        tr: 'Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500\'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960\'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.',
-      },
-      image: '/images/project-5.png',
+      title: 'Smartbin',
+      content: '',
+      date: 'January 2019',
+      link: 'https://github.com/laosteven/smartbin-servo',
+      image: 'https://s.wsj.net/public/resources/images/ON-CB801_chip_M_20170405183838.jpg',
     },
     {
       id: 6,
-      title: 'Fundo',
-      category: {
-        id: 2,
-        title: {
-          en: 'Application',
-          tr: 'Uygulama',
-        },
-      },
-      content: {
-        en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-        tr: 'Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500\'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960\'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.',
-      },
-      image: '/images/project-6.png',
+      title: 'SnapPass',
+      content: '',
+      date: 'November 2018',
+      link: 'https://github.com/laosteven/fantastic-umbrella',
+      image: 'https://s.wsj.net/public/resources/images/ON-CB801_chip_M_20170405183838.jpg',
     },
   ]
 })

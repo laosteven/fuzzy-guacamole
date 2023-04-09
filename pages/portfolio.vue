@@ -50,48 +50,8 @@ function closeItem() {
     </header>
 
     <section class="projects">
-      <ul class="filter-list">
-        <li class="filter-item">
-          <button :class="{ active: activeCategory === 0 }" @click="changeFilter(0)">
-            All
-          </button>
-        </li>
-
-        <li v-for="category in categories" :key="category.id" class="filter-item" @click="changeFilter(category.id)">
-          <button :class="{ active: activeCategory === category.id }">
-            {{ locale === 'en' ? category.title?.en : category.title?.tr }}
-          </button>
-        </li>
-      </ul>
-
-      <div class="filter-select-box">
-        <button :class="{ active: filterMenu }" class="filter-select" @click="filterMenu = !filterMenu">
-          <div class="select-value">
-            {{ activeCategory !== 0 ? (locale === 'en' ? activeCategoryName?.en : activeCategoryName?.tr) : 'Select Category' }}
-          </div>
-
-          <div class="select-icon">
-            <ion-icon name="chevron-down" />
-          </div>
-        </button>
-
-        <ul class="select-list">
-          <li class="select-item">
-            <button @click="changeFilter(0)">
-              All
-            </button>
-          </li>
-
-          <li v-for="category in categories" :key="category.id" class="select-item">
-            <button @click="changeFilter(category.id)">
-              {{ locale === 'en' ? category.title?.en : category.title?.tr }}
-            </button>
-          </li>
-        </ul>
-      </div>
-
       <ul class="project-list">
-        <li v-for="project in projectList" :key="project.id" :class="{ active: activeCategory === project.category.id || activeCategory === 0 }" class="project-item">
+        <li v-for="project in projectList" :key="project.id" class="project-item">
           <a class="cursor-pointer" @click="showItem(project.id)">
 
             <figure class="project-img">
@@ -103,15 +63,12 @@ function closeItem() {
             </figure>
 
             <h3 class="project-title">{{ project.title }}</h3>
-
-            <p class="project-category">{{ locale === 'en' ? project.category.title?.en : project.category.title?.tr }}</p>
-
           </a>
         </li>
       </ul>
 
       <div class="modal-container" :class="{ active: activeModal }">
-        <div v-show="activeModal" class="overlay" :class="{ active: activeOverlay }" />
+        <div v-show="activeModal" class="overlay" :class="{ active: activeOverlay }" @click="closeItem" />
 
         <section class="testimonials-modal block">
           <button class="modal-close-btn" @click="closeItem">
@@ -130,10 +87,13 @@ function closeItem() {
             </h4>
 
             <small class="flex items-center justify-start gap-2 text-gray-500">
-              <span>14 June, 2021</span> | <span>{{ locale === 'en' ? activeItem.category?.title?.en : activeItem.category?.title?.tr }}</span> | <NuxtLink to="#">View Project</NuxtLink>
+              <span>{{ activeItem?.date }}</span> |
+              <NuxtLink :to="activeItem?.link" target="_blank">View Project</NuxtLink>
             </small>
 
-            <p class="text-justify" v-html="locale === 'en' ? activeItem.content?.en : activeItem.content?.tr" />
+            <p class="text-justify">
+              {{ activeItem.content }}
+            </p>
           </div>
         </section>
       </div>
